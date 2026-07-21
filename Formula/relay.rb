@@ -1,28 +1,28 @@
 class Relay < Formula
   desc "Interface-independent task router for AI agents"
   homepage "https://github.com/yoreai/relay"
-  version "0.6.0"
+  version "0.6.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/yoreai/relay/releases/download/v0.6.0/relay-darwin-arm64"
-      sha256 "77e1c9b931669968415e4f5ff3c979c898eaf89d0d5b96f4b920dd6bf9cfd111"
+      url "https://github.com/yoreai/relay/releases/download/v0.6.1/relay-darwin-arm64"
+      sha256 "745195bd5063b49004f707953734eb8e2be6516aa9350f6a6a59241fc9daa45b"
     end
     on_intel do
-      url "https://github.com/yoreai/relay/releases/download/v0.6.0/relay-darwin-x64"
-      sha256 "155c8238ae8097b4d28c422f46e68b7d4f944c3c34ca4ceb11a056e2c87c8d8f"
+      url "https://github.com/yoreai/relay/releases/download/v0.6.1/relay-darwin-x64"
+      sha256 "2103af1624363eeaf574e925fb6a59e662d7f8f2759f83ab19299836716da695"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yoreai/relay/releases/download/v0.6.0/relay-linux-arm64"
-      sha256 "2c981c9e95e19a7cd3e3496b23852cc9edf25b8ef8415d5c5aba5285111bf73f"
+      url "https://github.com/yoreai/relay/releases/download/v0.6.1/relay-linux-arm64"
+      sha256 "4ff0463db76b59ff5bb702966d4398ae3f669971a10428e7bcbb3beaeabd130c"
     end
     on_intel do
-      url "https://github.com/yoreai/relay/releases/download/v0.6.0/relay-linux-x64"
-      sha256 "f369a19f412b3e1010dc5d8d531e0ada9b6a1db1a4d3d89c6a834a3eafea7230"
+      url "https://github.com/yoreai/relay/releases/download/v0.6.1/relay-linux-x64"
+      sha256 "f5f94e189f313481d2244a1b353e6965a748c564cd07e4fbcb16377e260c0e64"
     end
   end
 

@@ -1,6 +1,6 @@
 cask "cortexa" do
-  version "0.1.1"
-  sha256 "30169e0cfbcdefd62d7c54f18ff7de353de4730484137e8649e32ee4abe3432b"
+  version "0.1.2"
+  sha256 "c9ab2f26ca48d5f8215347d53363c3813cdc2458fad367ab5c7bdda7d91b19c3"
 
   url "https://github.com/yoreai/cortexa-desktop/releases/download/cortexa-desktop-v#{version}/Cortexa-#{version}-mac-arm64.zip"
   name "Cortexa"

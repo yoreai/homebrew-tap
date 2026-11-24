@@ -14,7 +14,7 @@ cask "cortexa" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Cortexa.app"
 
@@ -29,7 +29,7 @@ cask "cortexa" do
     This build of Cortexa is not yet signed with an Apple Developer ID, so macOS warns the first
     time you open it. Right-click (or Control-click) Cortexa in Applications and choose Open, then
     Open again. On macOS 15 and later, open it once, dismiss the warning, then allow it under
-    System Settings → Privacy & Security → Open Anyway. Installing with
-    `brew install --cask --no-quarantine yoreai/tap/cortexa` skips the warning altogether.
+    System Settings → Privacy & Security → Open Anyway. To skip the warning instead, run
+    `xattr -dr com.apple.quarantine /Applications/Cortexa.app` once after installing.
   EOS
 end
